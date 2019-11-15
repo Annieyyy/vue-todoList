@@ -1,0 +1,48 @@
+@import 'common';
+
+.detail{
+    border-top:none;
+    width: 80%;
+    margin: 0 auto;
+
+    .detail-list{
+        border:1px solid #337ab7;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 20px;
+
+        margin-top: 1rem;
+        padding: 2rem 2rem 1rem 2rem;
+
+        .content-header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            input{
+                width: 80%;
+            }
+            .button {
+                button{
+                    width: 6rem;
+                }
+            }
+
+        }
+        .text{
+            border:1px solid #fff;
+            width: 100%;
+            margin-top: 1rem;
+            font-size:1.5rem;
+            word-wrap:break-word;
+        }
+
+        textarea{
+            margin-top: 1rem;
+            width: 100%;
+            outline:none;
+            padding-left: .5rem;
+        }
+    }
+}
+    

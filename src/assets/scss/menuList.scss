@@ -1,0 +1,67 @@
+@import 'common';
+
+.container{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    position: relative;
+
+    .header{
+        height: 20%;
+        background-color: #eee;
+        padding:0 5rem;
+        display: flex;
+        justify-content: space-between;
+
+        .logo{
+            font-size: 5rem;
+            color: #337ab7;
+        }
+        .header-left{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size:2rem;
+            span{
+                display:inline;
+                margin-right: 2rem;
+            }
+            .logout{
+                display:inline;
+                cursor:pointer;
+            }
+            .logout:hover{
+                color:#337ab7;
+            }
+        }
+    }
+    .left-side{
+        display:block;
+        width: 20%;
+        height: 80rem;
+        float: left;
+        background-color: #eee;
+
+        li{
+            border: 1px solid #ddd;
+            height: 5rem;
+            line-height: 5rem;
+            font-size: 2rem;
+            cursor: pointer;
+            background-color: #fff;
+            padding-left: 5rem;
+
+            a:hover{
+                text-decoration: none;
+            }   
+        }
+        
+    }
+
+    .right-side{
+        width: 80%;
+        height: 80rem;
+        background-color: #e9e9e9;
+        display:inline-block;
+    }
+}

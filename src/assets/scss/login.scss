@@ -1,0 +1,25 @@
+@import 'common';
+
+.login{
+    margin-top: 3rem;
+
+    .form-group{
+        input{
+            width: 35rem;
+            height: 5rem;
+            padding-left: 1rem;
+            border: 1px solid #dddddd;
+        }
+        .username{
+            border-bottom: none;
+        }
+    }
+    .err{
+        color: red;
+    }
+    button{
+        margin: 2rem 0;
+        width: 35rem;
+        padding: 1rem;
+    }
+}

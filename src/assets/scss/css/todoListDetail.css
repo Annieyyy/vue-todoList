@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none; }
+
+html, body {
+  color: #555;
+  width: 100%;
+  height: 100%; }
+
+.detail {
+  border-top: none;
+  width: 80%;
+  margin: 0 auto; }
+  .detail .detail-list {
+    border: 1px solid #337ab7;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 1rem;
+    padding: 2rem 2rem 1rem 2rem; }
+    .detail .detail-list .content-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .detail .detail-list .content-header input {
+        width: 80%; }
+      .detail .detail-list .content-header .button button {
+        width: 6rem; }
+    .detail .detail-list .text {
+      border: 1px solid #fff;
+      width: 100%;
+      margin-top: 1rem;
+      font-size: 1.5rem;
+      word-wrap: break-word; }
+    .detail .detail-list textarea {
+      margin-top: 1rem;
+      width: 100%;
+      outline: none;
+      padding-left: .5rem; }
+
+/*# sourceMappingURL=todoListDetail.css.map */

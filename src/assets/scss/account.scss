@@ -1,0 +1,33 @@
+@import 'common';
+
+.row{
+    width: 99.8%;
+    height: 100%;
+    margin-left: .2%;
+
+    h2{
+        margin:0;
+        border-bottom:1px solid #ccc;
+        height: 10%;
+        padding: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .form-group{
+        padding: 0 2rem;
+        label{
+            font-size: 1.8rem;
+            vertical-align: top;
+        }
+        input{
+            width: 100%;
+            height: 4rem;
+         }
+    }
+    .editBtn{
+        text-align: center;
+        button{
+            width: 8rem;
+        }
+    }
+}
